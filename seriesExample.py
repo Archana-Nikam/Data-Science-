@@ -9,6 +9,10 @@ print(a[1])#Blake
 
 labeled_index=pandas.Series(["john","Blake","Martin"],index=['a','b','c'])
 print(labeled_index)
-print(labeled_index.a)
-print(labeled_index['a'])
+#a      john
+# b     Blake
+# c    Martin
+# dtype: object
+print(labeled_index.a)#john
+print(labeled_index['a'])#john
 print(labeled_index['b'])#Blake
